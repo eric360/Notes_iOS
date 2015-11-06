@@ -13,6 +13,7 @@
 		DA308C821BECF2500058D176 /* NotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA308C811BECF2500058D176 /* NotesTests.swift */; };
 		DA308C8D1BECF2500058D176 /* NotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA308C8C1BECF2500058D176 /* NotesUITests.swift */; };
 		DA308C9B1BECF3410058D176 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA308C9A1BECF3410058D176 /* LaunchScreen.xib */; };
+		DA308CA01BECF6060058D176 /* NTRootController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA308C9F1BECF6060058D176 /* NTRootController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		DA308C8C1BECF2500058D176 /* NotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesUITests.swift; sourceTree = "<group>"; };
 		DA308C8E1BECF2500058D176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA308C9A1BECF3410058D176 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		DA308C9F1BECF6060058D176 /* NTRootController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NTRootController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +124,7 @@
 		DA308C9C1BECF4910058D176 /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				DA308C6E1BECF2500058D176 /* NTRootController.swift */,
+				DA308C9E1BECF5A50058D176 /* Root */,
 			);
 			name = Class;
 			sourceTree = "<group>";
@@ -136,6 +138,15 @@
 				DA308C9A1BECF3410058D176 /* LaunchScreen.xib */,
 			);
 			name = App;
+			sourceTree = "<group>";
+		};
+		DA308C9E1BECF5A50058D176 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				DA308C6E1BECF2500058D176 /* NTRootController.swift */,
+				DA308C9F1BECF6060058D176 /* NTRootController.xib */,
+			);
+			name = Root;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA308CA01BECF6060058D176 /* NTRootController.xib in Resources */,
 				DA308C9B1BECF3410058D176 /* LaunchScreen.xib in Resources */,
 				DA308C741BECF2500058D176 /* Assets.xcassets in Resources */,
 			);
