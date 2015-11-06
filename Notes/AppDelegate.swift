@@ -12,13 +12,13 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    var rootController : NTRootController = NTRootController()
+    var contactController : NTContactController = NTContactController()
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
-        window?.rootViewController = UINavigationController(rootViewController: rootController)
+        window?.rootViewController = UINavigationController(rootViewController: contactController)
         window?.makeKeyAndVisible()
         return true
     }

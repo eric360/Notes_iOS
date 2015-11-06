@@ -8,7 +8,7 @@
 
 import UIKit
 
-class NTRootController: NTViewController {
+class NTContactController: NTViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.title = "Contact"

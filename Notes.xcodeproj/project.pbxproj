@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		DA308C6D1BECF2500058D176 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA308C6C1BECF2500058D176 /* AppDelegate.swift */; };
-		DA308C6F1BECF2500058D176 /* NTRootController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA308C6E1BECF2500058D176 /* NTRootController.swift */; };
+		DA308C6F1BECF2500058D176 /* NTContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA308C6E1BECF2500058D176 /* NTContactController.swift */; };
 		DA308C741BECF2500058D176 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA308C731BECF2500058D176 /* Assets.xcassets */; };
 		DA308C821BECF2500058D176 /* NotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA308C811BECF2500058D176 /* NotesTests.swift */; };
 		DA308C8D1BECF2500058D176 /* NotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA308C8C1BECF2500058D176 /* NotesUITests.swift */; };
 		DA308C9B1BECF3410058D176 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA308C9A1BECF3410058D176 /* LaunchScreen.xib */; };
-		DA308CA01BECF6060058D176 /* NTRootController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA308C9F1BECF6060058D176 /* NTRootController.xib */; };
+		DA308CA01BECF6060058D176 /* NTContactController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA308C9F1BECF6060058D176 /* NTContactController.xib */; };
 		DA308CA21BECF7380058D176 /* NTRootTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA308CA11BECF7380058D176 /* NTRootTableView.swift */; };
 		DA308CA51BECF8B40058D176 /* NTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA308CA41BECF8B40058D176 /* NTViewController.swift */; };
 /* End PBXBuildFile section */
@@ -38,7 +38,7 @@
 /* Begin PBXFileReference section */
 		DA308C691BECF2500058D176 /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA308C6C1BECF2500058D176 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DA308C6E1BECF2500058D176 /* NTRootController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTRootController.swift; sourceTree = "<group>"; };
+		DA308C6E1BECF2500058D176 /* NTContactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTContactController.swift; sourceTree = "<group>"; };
 		DA308C731BECF2500058D176 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA308C781BECF2500058D176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA308C7D1BECF2500058D176 /* NotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,7 +48,7 @@
 		DA308C8C1BECF2500058D176 /* NotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesUITests.swift; sourceTree = "<group>"; };
 		DA308C8E1BECF2500058D176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA308C9A1BECF3410058D176 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
-		DA308C9F1BECF6060058D176 /* NTRootController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NTRootController.xib; sourceTree = "<group>"; };
+		DA308C9F1BECF6060058D176 /* NTContactController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NTContactController.xib; sourceTree = "<group>"; };
 		DA308CA11BECF7380058D176 /* NTRootTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTRootTableView.swift; sourceTree = "<group>"; };
 		DA308CA41BECF8B40058D176 /* NTViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -148,8 +148,8 @@
 		DA308C9E1BECF5A50058D176 /* Root */ = {
 			isa = PBXGroup;
 			children = (
-				DA308C6E1BECF2500058D176 /* NTRootController.swift */,
-				DA308C9F1BECF6060058D176 /* NTRootController.xib */,
+				DA308C6E1BECF2500058D176 /* NTContactController.swift */,
+				DA308C9F1BECF6060058D176 /* NTContactController.xib */,
 				DA308CA11BECF7380058D176 /* NTRootTableView.swift */,
 			);
 			name = Root;
@@ -267,7 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA308CA01BECF6060058D176 /* NTRootController.xib in Resources */,
+				DA308CA01BECF6060058D176 /* NTContactController.xib in Resources */,
 				DA308C9B1BECF3410058D176 /* LaunchScreen.xib in Resources */,
 				DA308C741BECF2500058D176 /* Assets.xcassets in Resources */,
 			);
@@ -294,7 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA308C6F1BECF2500058D176 /* NTRootController.swift in Sources */,
+				DA308C6F1BECF2500058D176 /* NTContactController.swift in Sources */,
 				DA308C6D1BECF2500058D176 /* AppDelegate.swift in Sources */,
 				DA308CA51BECF8B40058D176 /* NTViewController.swift in Sources */,
 				DA308CA21BECF7380058D176 /* NTRootTableView.swift in Sources */,

@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NTRootController" customModule="Notes" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NTContactController" customModule="Notes" customModuleProvider="target">
             <connections>
                 <outlet property="view" destination="iN0-l3-epB" id="WKu-QE-ccR"/>
             </connections>
@@ -21,7 +21,7 @@
                     <color key="sectionIndexBackgroundColor" red="0.18862845010000001" green="0.39291510219999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                 </tableView>
             </subviews>
-            <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="1S6-mD-TSw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="0cc-vI-zKO"/>
                 <constraint firstAttribute="trailing" secondItem="1S6-mD-TSw" secondAttribute="trailing" constant="5" id="1gd-QO-Ep4"/>
