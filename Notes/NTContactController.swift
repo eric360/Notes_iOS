@@ -9,7 +9,7 @@
 import UIKit
 import Contacts
 class NTContactController: NTViewController {
-
+    // MARK: var
     @IBOutlet var tableView: NTContactTable!
     // MARK: override UIViewController
     override func viewDidLoad() {

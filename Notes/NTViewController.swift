@@ -9,6 +9,7 @@
 import UIKit
 
 class NTViewController: UIViewController {
+    // MARK: override UIViewController
     override func viewDidLoad() {
         super.viewDidLoad()
         self.edgesForExtendedLayout = .None

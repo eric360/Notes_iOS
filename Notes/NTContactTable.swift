@@ -9,16 +9,19 @@ import UIKit
 import Contacts
 
 class NTContactTable : UITableView, UITableViewDataSource {
+    // MARK: var
     var contacts : [CNContact]?{
         didSet{
             self.reloadData()
         }
     }
+    // MARK: override UITableView
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.dataSource = self
         self.registerClass(UITableViewCell.self, forCellReuseIdentifier: "Cell")
     }
+    // MARK: UITableViewDataSource
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if let contacts = contacts{
             return contacts.count
