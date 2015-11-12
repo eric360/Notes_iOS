@@ -7,6 +7,6 @@
 //
 import UIKit
 import Foundation
-class NTRootTableView : UITableView {
+class NTContactTable : UITableView {
     
 }

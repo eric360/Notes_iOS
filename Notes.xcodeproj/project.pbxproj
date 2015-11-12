@@ -14,7 +14,7 @@
 		DA308C8D1BECF2500058D176 /* NotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA308C8C1BECF2500058D176 /* NotesUITests.swift */; };
 		DA308C9B1BECF3410058D176 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA308C9A1BECF3410058D176 /* LaunchScreen.xib */; };
 		DA308CA01BECF6060058D176 /* NTContactController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA308C9F1BECF6060058D176 /* NTContactController.xib */; };
-		DA308CA21BECF7380058D176 /* NTRootTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA308CA11BECF7380058D176 /* NTRootTableView.swift */; };
+		DA308CA21BECF7380058D176 /* NTContactTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA308CA11BECF7380058D176 /* NTContactTable.swift */; };
 		DA308CA51BECF8B40058D176 /* NTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA308CA41BECF8B40058D176 /* NTViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,7 +49,7 @@
 		DA308C8E1BECF2500058D176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA308C9A1BECF3410058D176 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		DA308C9F1BECF6060058D176 /* NTContactController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NTContactController.xib; sourceTree = "<group>"; };
-		DA308CA11BECF7380058D176 /* NTRootTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTRootTableView.swift; sourceTree = "<group>"; };
+		DA308CA11BECF7380058D176 /* NTContactTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTContactTable.swift; sourceTree = "<group>"; };
 		DA308CA41BECF8B40058D176 /* NTViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,7 +128,7 @@
 		DA308C9C1BECF4910058D176 /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				DA308CA31BECF8A60058D176 /* Base */,
+				DA308CA31BECF8A60058D176 /* Super */,
 				DA308C9E1BECF5A50058D176 /* Root */,
 			);
 			name = Class;
@@ -150,17 +150,17 @@
 			children = (
 				DA308C6E1BECF2500058D176 /* NTContactController.swift */,
 				DA308C9F1BECF6060058D176 /* NTContactController.xib */,
-				DA308CA11BECF7380058D176 /* NTRootTableView.swift */,
+				DA308CA11BECF7380058D176 /* NTContactTable.swift */,
 			);
 			name = Root;
 			sourceTree = "<group>";
 		};
-		DA308CA31BECF8A60058D176 /* Base */ = {
+		DA308CA31BECF8A60058D176 /* Super */ = {
 			isa = PBXGroup;
 			children = (
 				DA308CA41BECF8B40058D176 /* NTViewController.swift */,
 			);
-			name = Base;
+			name = Super;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,7 +297,7 @@
 				DA308C6F1BECF2500058D176 /* NTContactController.swift in Sources */,
 				DA308C6D1BECF2500058D176 /* AppDelegate.swift in Sources */,
 				DA308CA51BECF8B40058D176 /* NTViewController.swift in Sources */,
-				DA308CA21BECF7380058D176 /* NTRootTableView.swift in Sources */,
+				DA308CA21BECF7380058D176 /* NTContactTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +505,7 @@
 				DA308C931BECF2500058D176 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA308C941BECF2500058D176 /* Build configuration list for PBXNativeTarget "NotesTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +514,7 @@
 				DA308C961BECF2500058D176 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA308C971BECF2500058D176 /* Build configuration list for PBXNativeTarget "NotesUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +523,7 @@
 				DA308C991BECF2500058D176 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
