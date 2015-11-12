@@ -6,7 +6,30 @@
 //  Copyright © 2015 Eric Hong tuan ha. All rights reserved.
 //
 import UIKit
-import Foundation
-class NTContactTable : UITableView {
-    
+import Contacts
+
+class NTContactTable : UITableView, UITableViewDataSource {
+    var contacts : [CNContact]?{
+        didSet{
+            self.reloadData()
+        }
+    }
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        self.dataSource = self
+        self.registerClass(UITableViewCell.self, forCellReuseIdentifier: "Cell")
+    }
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        if let contacts = contacts{
+            return contacts.count
+        }
+        return 0
+    }
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell = self.dequeueReusableCellWithIdentifier("Cell")
+        if let  contact = contacts?[indexPath.row]{
+            cell!.textLabel!.text = contact.givenName
+        }
+        return cell!
+    }
 }

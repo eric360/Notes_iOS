@@ -7,6 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NTContactController" customModule="Notes" customModuleProvider="target">
             <connections>
+                <outlet property="tableView" destination="1S6-mD-TSw" id="a5M-iQ-si9"/>
                 <outlet property="view" destination="iN0-l3-epB" id="WKu-QE-ccR"/>
             </connections>
         </placeholder>
@@ -28,6 +29,7 @@
                 <constraint firstAttribute="bottom" secondItem="1S6-mD-TSw" secondAttribute="bottom" constant="5" id="9ce-v0-rSL"/>
                 <constraint firstItem="1S6-mD-TSw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="laN-P5-f53"/>
             </constraints>
+            <point key="canvasLocation" x="461" y="256"/>
         </view>
     </objects>
 </document>

@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA0F31951BF4174F00D549DE /* NTContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA308C6E1BECF2500058D176 /* NTContactController.swift */; };
 		DA308C6D1BECF2500058D176 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA308C6C1BECF2500058D176 /* AppDelegate.swift */; };
-		DA308C6F1BECF2500058D176 /* NTContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA308C6E1BECF2500058D176 /* NTContactController.swift */; };
 		DA308C741BECF2500058D176 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA308C731BECF2500058D176 /* Assets.xcassets */; };
 		DA308C821BECF2500058D176 /* NotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA308C811BECF2500058D176 /* NotesTests.swift */; };
 		DA308C8D1BECF2500058D176 /* NotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA308C8C1BECF2500058D176 /* NotesUITests.swift */; };
@@ -294,7 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA308C6F1BECF2500058D176 /* NTContactController.swift in Sources */,
+				DA0F31951BF4174F00D549DE /* NTContactController.swift in Sources */,
 				DA308C6D1BECF2500058D176 /* AppDelegate.swift in Sources */,
 				DA308CA51BECF8B40058D176 /* NTViewController.swift in Sources */,
 				DA308CA21BECF7380058D176 /* NTContactTable.swift in Sources */,
