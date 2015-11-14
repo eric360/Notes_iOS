@@ -16,18 +16,18 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="1S6-mD-TSw" customClass="NTContactTable" customModule="Notes" customModuleProvider="target">
-                    <rect key="frame" x="5" y="5" width="590" height="590"/>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="100" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="1S6-mD-TSw" customClass="NTContactTable" customModule="Notes" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <color key="sectionIndexBackgroundColor" red="0.18862845010000001" green="0.39291510219999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                 </tableView>
             </subviews>
             <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="1S6-mD-TSw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="0cc-vI-zKO"/>
-                <constraint firstAttribute="trailing" secondItem="1S6-mD-TSw" secondAttribute="trailing" constant="5" id="1gd-QO-Ep4"/>
-                <constraint firstAttribute="bottom" secondItem="1S6-mD-TSw" secondAttribute="bottom" constant="5" id="9ce-v0-rSL"/>
-                <constraint firstItem="1S6-mD-TSw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="laN-P5-f53"/>
+                <constraint firstItem="1S6-mD-TSw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="0cc-vI-zKO"/>
+                <constraint firstAttribute="trailing" secondItem="1S6-mD-TSw" secondAttribute="trailing" id="1gd-QO-Ep4"/>
+                <constraint firstAttribute="bottom" secondItem="1S6-mD-TSw" secondAttribute="bottom" id="9ce-v0-rSL"/>
+                <constraint firstItem="1S6-mD-TSw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="laN-P5-f53"/>
             </constraints>
             <point key="canvasLocation" x="461" y="256"/>
         </view>

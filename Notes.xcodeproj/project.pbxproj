@@ -16,6 +16,8 @@
 		DA308CA01BECF6060058D176 /* NTContactController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA308C9F1BECF6060058D176 /* NTContactController.xib */; };
 		DA308CA21BECF7380058D176 /* NTContactTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA308CA11BECF7380058D176 /* NTContactTable.swift */; };
 		DA308CA51BECF8B40058D176 /* NTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA308CA41BECF8B40058D176 /* NTViewController.swift */; };
+		DA9EFA321BF6B5C900DD9694 /* NTContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9EFA311BF6B5C900DD9694 /* NTContactCell.swift */; };
+		DA9EFA341BF6B68400DD9694 /* NTContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA9EFA331BF6B68400DD9694 /* NTContactCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		DA308C9F1BECF6060058D176 /* NTContactController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NTContactController.xib; sourceTree = "<group>"; };
 		DA308CA11BECF7380058D176 /* NTContactTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTContactTable.swift; sourceTree = "<group>"; };
 		DA308CA41BECF8B40058D176 /* NTViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTViewController.swift; sourceTree = "<group>"; };
+		DA9EFA311BF6B5C900DD9694 /* NTContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTContactCell.swift; sourceTree = "<group>"; };
+		DA9EFA331BF6B68400DD9694 /* NTContactCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NTContactCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +155,8 @@
 				DA308C6E1BECF2500058D176 /* NTContactController.swift */,
 				DA308C9F1BECF6060058D176 /* NTContactController.xib */,
 				DA308CA11BECF7380058D176 /* NTContactTable.swift */,
+				DA9EFA311BF6B5C900DD9694 /* NTContactCell.swift */,
+				DA9EFA331BF6B68400DD9694 /* NTContactCell.xib */,
 			);
 			name = Root;
 			sourceTree = "<group>";
@@ -267,6 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA9EFA341BF6B68400DD9694 /* NTContactCell.xib in Resources */,
 				DA308CA01BECF6060058D176 /* NTContactController.xib in Resources */,
 				DA308C9B1BECF3410058D176 /* LaunchScreen.xib in Resources */,
 				DA308C741BECF2500058D176 /* Assets.xcassets in Resources */,
@@ -298,6 +305,7 @@
 				DA308C6D1BECF2500058D176 /* AppDelegate.swift in Sources */,
 				DA308CA51BECF8B40058D176 /* NTViewController.swift in Sources */,
 				DA308CA21BECF7380058D176 /* NTContactTable.swift in Sources */,
+				DA9EFA321BF6B5C900DD9694 /* NTContactCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
